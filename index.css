@@ -1,0 +1,320 @@
+/* ---------------------------------Css for service section starts here-------------------------------------------- */
+
+#services{
+    width:100%;
+    height:230px;
+    display: flex;
+    align-items: center;
+}
+#service{
+    width:85%;
+    margin: auto;
+    display: flex;
+    height:95%;
+    justify-content: space-between;
+}
+#service>div{
+    height:100%;
+    width:11%;
+    text-align: center;
+}
+#service>div>img{
+    height:80%;
+    width: 100%;
+}
+#service>div>a{
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+/* ---------------------------------Css for trending section starts here-------------------------------------------- */
+#gif{
+    width:100%;
+    margin-top: 20px;
+}
+#gif>img{
+    width: 100%;
+}
+
+#trending{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:2px;
+    left:0px
+}
+#trending>div{
+    text-align: center;
+}
+#trending>div>img{
+    width:100%;
+}
+
+/* ---------------------------------Css for originals section starts here-------------------------------------------- */
+
+#originals{
+    height:350px;
+    width:120%;
+    display: flex;
+    gap:10px;
+}
+#originals>div{
+    height:350px;
+    width:350px;
+}
+#originals>div>img{
+    height:100%;
+    width:100%;
+}
+
+/* ---------------------------------Css for missed section starts here-------------------------------------------- */
+
+
+#missed-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5px;
+}
+#missed-section>div>img{
+    width:100%;
+}
+
+/* ---------------------------------Css for bag section starts here-------------------------------------------- */
+
+#bag-section{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+#bag-section>div>img{
+    width:105%
+}
+
+/* ---------------------------------Css for Accesories section starts here-------------------------------------------- */
+
+#accessories{
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#best-seller{
+    width:100%;
+    height:500px;
+    background-image: url("https://images.bewakoof.com/web/bg-web-mc-land-page.svg");
+    background-size: cover;
+}
+
+#best-picks{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5px;
+}
+#best-picks>div>img{
+    width:100%;
+}
+
+#second-last-image{
+    width:100%;
+    margin-top: 10px;
+}
+#third-last-image{
+    width:100%;
+    margin-top: 10px;
+}
+#second-last-image>img{
+    width: 100%;
+}
+#last-image{
+    width:100%;
+    margin-top: 10px;
+}
+#last-image>img{
+    width: 100%;
+}
+
+/* ---------------css for best seller section here------------------------- */
+
+#best-seller{
+    display:flex;
+    gap:20px;
+    width:200%;
+}
+
+#product{
+    width:250px;
+    height:350px;
+    line-height: 2px;
+    border:1px solid rgb(173, 172, 172);
+    font-family: montserrat, sans-serif 
+}
+#product>div{
+    display: flex;
+}
+#product>img{
+    width:100%;
+    height:80%
+}
+#product>p{
+    font-size: 10px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    color: rgb(146, 144, 144);
+    margin-left: 5px;
+}
+h5{
+    color: rgb(83, 83, 83);
+    margin-left: 5px;
+    margin-top:20px
+}
+#p{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-left: 5px;
+}
+#l{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: rgb(146, 144, 144);
+}
+#g{
+    color: rgb(2, 90, 2);
+}
+#dis{
+    display: flex;
+    justify-content: space-between;
+}
+#dis>span{
+    margin-top: 20px;
+    margin-right:5px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+
+
+/* ------------------------------- all slider css here--------------------- */
+
+.wrapper,.wrapper1,.wrapper2{
+    max-width: 1500px;
+}
+.wrapper span{
+    height:46px;
+    width:46px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    line-height: 46px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    transform: translateY(-50%);
+}
+.wrapper1 span{
+    height:46px;
+    width:46px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top:3700px;
+    line-height: 46px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    transform: translateY(-50%);
+}
+.wrapper2 span{
+    height:46px;
+    width:46px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top:325%;
+    line-height: 46px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    transform: translateY(-50%);
+}
+.wrapper span:first-child,.wrapper1 span:first-child,.wrapper2 span:first-child{
+    margin-left: 7px;
+}
+.wrapper span:last-child,.wrapper1 span:last-child,.wrapper2 span:last-child{
+    margin-left: 1300px;
+}
+.wrapper .carousel,.wrapper1 .carousel1,.wrapper2 .carousel2{
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+.carousel .dragging,.carousel1 .dragging,.carousel2 .dragging{
+    cursor: grab;
+    scroll-behavior: auto; 
+}
+.carousel .dragging img,.carousel1 .dragging img,.carousel2 .dragging img{
+    pointer-events: none;
+}
+.carousel img,.carousel1 img{
+    height:480px;
+    width:calc(100%/3);
+    object-fit: cover;
+}
+.carousel2 img{
+    height:400px;
+    width:calc(100%/4);
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+    .wrapper,.wrapper1,.wrapper2{
+        margin: auto;
+        max-width: 700px;
+    }
+    .wrapper span{
+        display: none;
+    }
+    .wrapper1 span{
+        display: none;
+    }
+    .wrapper2 span{
+        display: none;
+    }
+    .carousel img,.carousel1 img{
+        height:100%;
+        width:calc(100%/1);
+        object-fit: cover;
+    }
+    .carousel2 img{
+        height:100%;
+        width:calc(100%/1);
+        object-fit: cover;
+    }
+    #services{
+        height:600px;
+    }
+    #service{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #service>div{
+        height: 80%;
+        width:60%;
+    }
+    #accessories{
+        width:70%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+
+
+

@@ -1,0 +1,87 @@
+#container{
+    margin-top: 80px;
+    height:550px;
+    width:100%;
+    background-image: linear-gradient(white, #fff4c7);
+    display: flex;
+}
+#left{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left>img{
+    height:470px;
+    width:330px;
+}
+#right{
+    width:50%;
+    height:100%;
+}
+#right>div{
+    height:100%;
+    width:80%;
+    background-color: white;
+}
+#signup-div{
+    width:65%;
+    height: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+#signup-div>h3{
+    margin-top: 20px;
+    color: #333333;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+#signup-div>input{
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(168, 167, 167);
+    width:100%;
+    font-weight: 800;
+    font-size: 18px;
+}
+#signup-div>label{
+    color: grey;
+}
+#check{
+    display: flex;
+    gap:10px
+}
+#proceed{
+    width:100%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+}
+#pass{
+    width:100%;
+    display: flex;
+    gap:250px
+}
+#pass>label{
+    color: grey;
+}
+@media only screen and (min-width: 300px) and (max-width: 1200px){
+    #left{
+        display: none;
+    }
+    #right{
+        width:100%;
+    }
+    #right>div{
+        height:100%;
+        width:100%;
+        background-color: white;
+    }
+}

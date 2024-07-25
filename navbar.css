@@ -1,0 +1,281 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24,
+  }
+#navbar{
+    width:100%;
+    position: fixed;
+    height:80px;
+    left: 0;
+    top: 0;
+}
+
+/* -------------------css for navbar first section starts here ------------------------ */
+#first{
+    height: 25px;
+    width:100%;
+    background-color: #eeeeee;
+}
+#first-wrapper{
+    width:85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#first-wrapper-right{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#first-wrapper-left{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#first-wrapper-right a{
+    text-decoration: none;
+    color: #4b5256;
+    font-size: 11px;
+    font-weight: 5;
+    letter-spacing: 0.6px;
+}
+#first-wrapper-left a{
+    text-decoration: none;
+    color: #4b5256;
+    font-size: 11px;
+    font-weight: 20;
+    letter-spacing: 0.6px;
+}
+
+/* ----------------second div css here------------------ */
+
+#second{
+    height: 55px;
+    width:100%;
+    border-bottom:1px solid rgb(207, 205, 205) ;
+    background-color: white;
+}
+
+#second-wrapper{
+    width:85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#second-wrapper-right{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+#logo>img{
+    height:20px;
+}
+#second-wrapper-right a{
+    text-decoration: none;
+    color:black;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+#second-wrapper-left{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-left: 150px;
+}
+
+.hidden-content {
+    display: none;
+}
+.hover-element , .hover-element1,.hover-element2{
+    height:100%;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+    width:max-content;
+    background-color: inherit;
+}
+/* .hover-element:hover{
+    border-bottom: 2px solid orange;
+} */
+.hover-element:hover .hidden-content {
+    display: block;
+}
+.hover-element:hover {
+    border-bottom:4px solid orange;
+}
+
+.hover-element1:hover .hidden-content {
+    display: block;
+}
+.hover-element1:hover {
+    border-bottom:4px solid orange;
+}
+.hover-element1:hover .main{
+    margin-left:-300px ;
+}
+.hover-element2:hover .hidden-content {
+    display: block;
+}
+.hover-element2:hover .main{
+    margin-left:-500px ;
+}
+.hover-element2:hover {
+    border-bottom:4px solid orange;
+}
+
+/* ------------------------search css here----------------------------- */
+
+.search{
+    width:280px;
+    height:15px;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    color: black;
+}
+.search-input{
+    font-size: 11px;
+    width: 200px;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background-color: #eeeeee;
+    font-weight: 5;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.search-icon{
+    color: #838181;
+}
+#login-btn{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    border: none;
+    border-left: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+/* -------------------------hidden div css here------------------------ */
+.main{
+    display:flex;
+    position: absolute;
+    height:550px;
+    width:80%;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid rgb(151, 150, 150);
+    background-color: white;
+    margin-left: -200px;
+    border-top: none; 
+}
+.main>div{
+    width:20%;
+    height:97%;
+    margin-top: 3%;
+    text-align: left;
+}
+.main>div:last-child{
+    border-left: 1px solid rgb(151, 150, 150);
+}
+#specials1>h3,#specials2>h3,#specials3>h3{
+    margin-left: 30px;
+    color: rgb(99, 98, 98);
+    font-size: 15px;
+    font-weight: 20;
+}
+#specials1>div,#specials2>div,#specials3>div{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    width:200px;
+    margin-bottom: 10px;
+}
+#specials1>div>img,#specials2>div>img,#specials3>div>img{
+    height:40px;
+    border-radius: 50%;
+}
+#specials1>div>a,#specials2>div>a,#specials3>div>a{
+    margin-left: 20px;
+    width:200px;
+    color: rgb(151, 150, 150);
+}
+.main>div:first-child{
+    margin-left: 40px;
+}
+.main>div>h3{
+    color: rgb(99, 98, 98);
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 20;
+}
+.main>div>p{
+    line-height: 25px;
+    font-size: 13px;
+    color: rgb(151, 150, 150);
+}
+
+/* ----------bottom css here ------------------------------- */
+#bottom{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: -10px;
+}
+#bottom>a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+#rnav{
+    display: none;
+  }
+
+
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+    #navbar{
+        display:none;
+    }
+    #first{
+        display:none;
+    }
+    #bottom{
+        display:none;
+    }
+    #rnav{
+        height:70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: yellow;
+      }
+      #rnav-logo>img{
+        height:20px;
+        margin-left:10px;
+      }
+      #rnav-icon{
+        display: flex;
+        gap:10px;
+        margin-right: 20px;
+      }
+}
+
+
+/* -------------all top css ends here----------------------------------------------------- */
+
