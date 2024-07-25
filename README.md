@@ -1,15 +1,15 @@
 This project is a Bewakoof Website's clone
 
-HTML , CSS , Java Script have been used to create this project.
+Overview
+The Bewakoof Clone project aims to replicate the core functionalities of the Bewakoof website, a popular Indian fashion and lifestyle brand. This project will help understand and implement the essential features of an e-commerce platform, including product listings, user accounts, shopping carts, and payment gateways.
 
-login / signup functionality has been added
-
-search function is working (only for shirts and jeans other products is not added in the API)
-
-Slider function is done .
-
-Hover function is working.
-
-offers page has been added.
-
-Media query have been implemented.
+Features
+User Authentication: Sign up, log in, and manage user profiles.
+Product Catalog: Browse through a wide range of products with detailed descriptions and images.
+Search and Filter: Advanced search options and filters to help users find products easily.
+Shopping Cart: Add, remove, and manage products in the cart.
+Wishlist: Save favorite products for future purchase.
+Checkout Process: Seamless checkout experience with multiple payment options.
+Order Management: Track order status and history.
+Admin Panel: Manage products, categories, users, and orders.
+Technologies Used:HTML, CSS, JavaScript, React.js
